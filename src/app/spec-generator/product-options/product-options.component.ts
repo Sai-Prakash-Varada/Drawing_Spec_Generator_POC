@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import * as productOptions from '../configs/productOptions.json';
 import * as configuratorOptions from '../configs/configurator.json';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-product-options',
@@ -9,9 +10,11 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./product-options.component.scss']
 })
 export class ProductOptionsComponent implements OnInit {
+  @ViewChild('validateItem') validateItem!: TemplateRef<any>;
+  
   isDownload: any;
 
-  constructor(private modalService: NgbModal) { }
+  constructor(private modalService: NgbModal,private toastr: ToastrService) { }
   productOptions: any = (productOptions as any).default;
   configuratorOptions: any = (configuratorOptions as any).default;
 isPowderCoatSelected: boolean = false;
@@ -29,12 +32,10 @@ configSelectedValues: any = {
   locking: null
 }
   ngOnInit(): void {
-    console.log(this.productOptions);
-    console.log(this.configuratorOptions);
+    console.log('Product Options', this.productOptions);
     
   }
 updateConfiguratorOptions(item: any) {
-// console.log(item);
 if (item?.manufacturerID) {
   this.configuratorOptions.Options.forEach((option:any) => {
     if (option.segment == "PRIVATE.LBL.OE") {
@@ -120,20 +121,37 @@ if (item?.manufacturerID) {
     }
   })
 } 
-console.log(this.configuratorOptions);
 
 }
 openDrawingDoc(content: any, type: boolean) {
-  console.log(this.configSelectedValues);
-  
   this.isDownload = type;
-  this.modalService.open(content, {
-    centered: true,
-    scrollable: true,
-    size: 'lg',
-    windowClass: 'orderModal',
-    // backdrop: 'static',
-  });
+  if (type) {
+    this.modalService.open(this.validateItem, {
+      centered: true,
+      scrollable: true,
+      size: 'md',
+      backdrop: 'static',
+    });
+    setTimeout(() => {
+      this.modalService.dismissAll();
+      this.modalService.open(content, {
+        centered: true,
+        scrollable: true,
+        size: 'lg',
+        windowClass: 'orderModal',
+        backdrop: 'static',
+      });
+    }, 3000);
+  }else {
+    this.modalService.open(content, {
+      centered: true,
+      scrollable: true,
+      size: 'lg',
+      windowClass: 'orderModal',
+      backdrop: 'static',
+    });
+  }
+ 
 
 }
 

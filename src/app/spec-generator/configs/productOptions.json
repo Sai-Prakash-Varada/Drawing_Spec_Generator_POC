@@ -127,46 +127,6 @@
     }
   ],
   "finish": [
-    {
-      "FinishTypeID": 17,
-      "Name": "GRAY GALVANIZED STEEL",
-      "Code": "GBE"
-    },
-    {
-      "FinishTypeID": 36,
-      "Name": "TAN GALVANIZED STEEL",
-      "Code": "TBE"
-    },
-    {
-      "FinishTypeID": 41,
-      "Name": "WHITE GALVANIZED STEEL",
-      "Code": "WBE"
-    },
-    {
-      "FinishTypeID": 23,
-      "Name": "BROWN GALVANIZED STEEL",
-      "Code": "BBE"
-    },
-    {
-        "FinishTypeID": 17,
-        "Name": "GRAY GALVANIZED STEEL ULTRA",
-        "Code": "GBE"
-      },
-      {
-        "FinishTypeID": 36,
-        "Name": "TAN GALVANIZED STEEL ULTRA",
-        "Code": "TBE"
-      },
-      {
-        "FinishTypeID": 41,
-        "Name": "WHITE GALVANIZED STEEL ULTRA",
-        "Code": "WBE"
-      },
-      {
-        "FinishTypeID": 23,
-        "Name": "BROWN GALVANIZED STEEL ULTRA",
-        "Code": "BBE"
-      },
       {
         "FinishTypeID": 8,
         "Name": "ALUMINIUM MEDIUM BRONZE",
@@ -202,6 +162,46 @@
         "Name": "STAINLESS STEEL",
         "Code": "NO4"
       },
+      {
+        "FinishTypeID": 17,
+        "Name": "GRAY GALVANIZED STEEL",
+        "Code": "GBE"
+      },
+      {
+        "FinishTypeID": 36,
+        "Name": "TAN GALVANIZED STEEL",
+        "Code": "TBE"
+      },
+      {
+        "FinishTypeID": 41,
+        "Name": "WHITE GALVANIZED STEEL",
+        "Code": "WBE"
+      },
+      {
+        "FinishTypeID": 23,
+        "Name": "BROWN GALVANIZED STEEL",
+        "Code": "BBE"
+      },
+      {
+          "FinishTypeID": 17,
+          "Name": "GRAY GALVANIZED STEEL ULTRA",
+          "Code": "GBE"
+        },
+        {
+          "FinishTypeID": 36,
+          "Name": "TAN GALVANIZED STEEL ULTRA",
+          "Code": "TBE"
+        },
+        {
+          "FinishTypeID": 41,
+          "Name": "WHITE GALVANIZED STEEL ULTRA",
+          "Code": "WBE"
+        },
+        {
+          "FinishTypeID": 23,
+          "Name": "BROWN GALVANIZED STEEL ULTRA",
+          "Code": "BBE"
+        },
       {
         "FinishTypeID": 32,
         "Name": "CORROSION",
@@ -364,12 +364,12 @@
   "lockOptions": [
     {
       "LockOptionID": 3,
-      "Name": "Coil side",
+      "Name": "COIL SIDE",
       "Code": "COL"
     },
     {
       "LockOptionID": 4,
-      "Name": "Fascia side",
+      "Name": "FASCIA SIDE",
       "Code": "FAS"
     }
   ]

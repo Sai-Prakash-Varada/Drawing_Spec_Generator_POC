@@ -123,12 +123,12 @@
   </p>
   <p><strong>2.3 MATERIALS</strong></p>
   <p class="indented"><strong>A. </strong> <span class="section-title">Curtain: </span></p>
-    <p class="sub-indented">1. Slats
+    <p class="sub-indented"><strong> 1. Slats</strong>
   </p>
   <p class="sub-sub-indented"><strong>a. </strong> <span class="section-title">{{specData.CurtainSlats.validOptionData[specData.CurtainSlats.validOption]['title']}}: </span>
     <span>{{specData.CurtainSlats.validOptionData[specData.CurtainSlats.validOption]['description']}}</span>
         
-        <p class="sub-indented">2. Finish
+        <p class="sub-indented"><strong>2. Finish</strong> 
       </p>
       <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED')">
         <p class="sub-sub-indented"><strong>a. </strong> <span><strong>GalvaNex™</strong> Coating System (Stock Color): </span></p>
@@ -162,6 +162,10 @@
     <p class="sub-sub-indented">a) <strong>  {{specData.BottombarConfiguration.validOptionData[specData.BottombarConfiguration.validOption]['title']}} </strong> <span>{{specData.BottombarConfiguration.validOptionData[specData.BottombarConfiguration.validOption]['description']}}</span></p>
     
     <p class="sub-indented"><strong>2. Finish</strong></p>
+    <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED')">
+        <p class="sub-sub-indented"><strong>a. </strong> <span><strong>GalvaNex™</strong> Coating System (Stock Color): </span></p>
+        <p class="sub-sub-sub-indented">1)<strong>  {{specData.CurtainFinish.validOptionData[specData.CurtainFinish.validOption]['title']}} - </strong> <span>{{specData.CurtainFinish.validOptionData[specData.CurtainFinish.validOption]['description']}}</span></p>
+      </div>
     <p *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM')" class="sub-sub-indented">a. <strong>  {{specData.BottombarFinish.validOptionData[specData.BottombarFinish.validOption]['title']}} - </strong> <span>{{specData.BottombarFinish.validOptionData[specData.BottombarFinish.validOption]['description']}}</span></p>
     <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')">
         <p class="sub-sub-indented"><strong>a. </strong> <span><strong>Powder Coat:</strong> </span></p>
@@ -173,7 +177,7 @@
            
     </div>
 
-    <p *ngIf="!configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')" class="sub-sub-indented"><strong>a. </strong> <span><strong>{{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['title']}}:</strong> {{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['description']}}</span></p>
+    <p *ngIf="!configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')" class="sub-sub-indented"><strong>a. </strong> <span><strong>{{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['title']}}:</strong> {{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['description']}}</span></p>
 </div>
     <div>
         <p class="indented"><strong>D. </strong> <span class="section-title">Guides: </span></p>
@@ -183,6 +187,10 @@
         
          
         <p class="sub-indented"><strong>2. Finish</strong></p>
+        <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED')">
+            <p class="sub-sub-indented"><strong>a. </strong> <span><strong>GalvaNex™</strong> Coating System (Stock Color): </span></p>
+            <p class="sub-sub-sub-indented">1)<strong>  {{specData.CurtainFinish.validOptionData[specData.CurtainFinish.validOption]['title']}} - </strong> <span>{{specData.CurtainFinish.validOptionData[specData.CurtainFinish.validOption]['description']}}</span></p>
+          </div>
     <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')">
         <p class="sub-sub-indented"><strong>a. </strong> <span><strong>Powder Coat:</strong> </span></p>
             <p class="sub-sub-sub-indented">1) Zirconium pre-treatment followed by baked-on polyester powder coat.  minimum 2.5 mils (0.065 mm) cured film thickness; ASTM D-3363 pencil hardness: H or better.</p>
@@ -194,7 +202,7 @@
     </div>
             <p *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM')" class="sub-sub-indented"><strong>a. </strong> <span><strong>Aluminum:</strong>{{specData.GuidesAluminium.validOptionData[specData.GuidesAluminium.validOption]}} </span></p>
      
-            <p *ngIf="!configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')" class="sub-sub-indented"><strong>a. </strong> <span><strong>{{specData.GuidesOtherItems.validOptionData[specData.GuidesOtherItems.validOption]['title']}}:</strong> {{specData.GuidesOtherItems.validOptionData[specData.GuidesOtherItems.validOption]['description']}}</span></p>
+            <p *ngIf="!configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')" class="sub-sub-indented"><strong>a. </strong> <span><strong>{{specData.GuidesOtherItems.validOptionData[specData.GuidesOtherItems.validOption]['title']}}:</strong> {{specData.GuidesOtherItems.validOptionData[specData.GuidesOtherItems.validOption]['description']}}</span></p>
            
     </div>
     <div>
@@ -206,6 +214,10 @@
         <p class="indented"><strong>F. </strong> <span class="section-title">Brackets: </span></p>
         <p class="sub-indented"><span>Fabricate from minimum 3/16 inch (5 mm) steel plate with permanently lubricated ball or roller bearings at rotating support points to support counterbalance shaft assembly and form end closures </span></p>
         <p class="sub-indented"><strong>1. Finish</strong></p>
+        <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED')">
+            <p class="sub-sub-indented"><strong>a. </strong> <span><strong>GalvaNex™</strong> Coating System (Stock Color): </span></p>
+            <p class="sub-sub-sub-indented">1)<strong>  {{specData.CurtainFinish.validOptionData[specData.CurtainFinish.validOption]['title']}} - </strong> <span>{{specData.CurtainFinish.validOptionData[specData.CurtainFinish.validOption]['description']}}</span></p>
+          </div>
     <div *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')">
         <p class="sub-sub-indented"><strong>a. </strong> <span><strong>Powder Coat:</strong> </span></p>
             <p class="sub-sub-sub-indented">1) Zirconium pre-treatment followed by baked-on polyester powder coat.  minimum 2.5 mils (0.065 mm) cured film thickness; ASTM D-3363 pencil hardness: H or better.</p>
@@ -217,7 +229,8 @@
             <p  class="sub-sub-sub-sub-indented">b) <span>Custom color as selected by Architect</span></p>
           
     </div>
-    <p *ngIf="!configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')" class="sub-sub-indented"><strong>a. </strong> <span><strong>{{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['title']}}:</strong> {{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['description']}}</span></p>
+    <p *ngIf="!configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('GALVANIZED') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM') && !configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('POWDER')" class="sub-sub-indented"><strong>a. </strong> <span><strong>{{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['title']}}:</strong> {{specData.BBOtherItems.validOptionData[specData.BBOtherItems.validOption]['description']}}</span></p>
+    <p *ngIf="configSelectedValues?.finishType?.Name?.toUpperCase()?.includes('ALUMINIUM')" class="sub-sub-indented"><strong>a. </strong> <span><strong>Aluminum:</strong>{{specData.GuidesAluminium.validOptionData[specData.GuidesAluminium.validOption]}} </span></p>
 
             <!-- <p *ngIf="specData.GuidesAluminium.validOption" class="sub-sub-indented"><strong>b. </strong> <span><strong>Corrosion Inhibitive: </strong>Zirconium treatment followed by a corrosion inhibitive baked-on zinc enriched gray polyester powder coat; minimum 2.5 mils (0.065 mm) cured film thickness </span></p>
      
@@ -413,8 +426,23 @@
    </div>     
  
    <div class="border-row">
-    <clo-button type="secondary" label="CLOSE" class="proceedBtn previeBttn" (click)="close()"
+    <clo-button type="secondary" label="CLOSE" class="me-3 previeBttn" (click)="close()"
     ></clo-button>
-    <clo-button class="proceedBtn rollingBtn" label="Generate Proposal" type="primary"
-    (click)="generateDoc()"></clo-button>
+    <clo-button class="me-3 rollingBtn" label="Generate Proposal" type="primary"
+    (click)="validateAndGenerateDoc()"></clo-button>
 </div>
+
+
+<ng-template #validateItem let-modal>
+  <div class="modal-body proposalModel d-flex justify-content-center align-items-center">
+    <div class="text-center">
+        <h1>Generating Proposal Document, please wait! </h1>
+        <p>This screen will close automatically!</p>
+      <div class="text-center mt-3 mb-3">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </ng-template>

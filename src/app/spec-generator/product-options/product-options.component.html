@@ -120,7 +120,7 @@
       </ng-select>
       </div>
       <div class="form-group custom-select fw-light minField">
-        <label class="custom-label" for="width">Locking options<span class="required">*</span>
+        <label class="custom-label" for="width">Locking Options<span class="required">*</span>
         </label>
         <ng-select placeholder="Select" class="ng-select" 
          id="projectType" [(ngModel)]="configSelectedValues.locking" (change)="updateConfiguratorOptions($event)"
@@ -131,11 +131,11 @@
       </div>
 </div>
 <div class="border-row">
-  <clo-button type="secondary" label="RESET" class="proceedBtn previeBttn" (click)="resetData()"
+  <clo-button type="secondary" label="RESET" class="previeBttn" (click)="resetData()"
   ></clo-button>
-  <clo-button type="secondary" label="PREVIEW" class="proceedBtn previeBttn" (click)="openDrawingDoc(drawingRef,false)"
+  <clo-button type="secondary" label="PREVIEW" class="previeBttn me-3 ms-3" [disabled]="!validateProductDetails()" (click)="openDrawingDoc(drawingRef,false)"
    ></clo-button>
-    <clo-button class="proceedBtn rollingBtn" label="Generate Proposal" [disabled]="!validateProductDetails()" (click)="openDrawingDoc(drawingRef, true)" type="primary"
+    <clo-button class="rollingBtn" label="Generate Proposal" [disabled]="!validateProductDetails()" (click)="openDrawingDoc(drawingRef, true)" type="primary"
     ></clo-button>
 </div>
 
@@ -143,4 +143,19 @@
 
 <ng-template #drawingRef let-modal>
   <app-drawing-spec-document [configuratorOptions]="configuratorOptions" [isDownload] = "isDownload" [configSelectedValues]="configSelectedValues" ></app-drawing-spec-document>
+</ng-template>
+
+<ng-template #validateItem let-modal>
+ 
+<div class="modal-body proposalModel d-flex justify-content-center align-items-center">
+  <div class="text-center">
+      <h1>Generating Proposal Document, please wait! </h1>
+      <p>This screen will close automatically!</p>
+    <div class="text-center mt-3 mb-3">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  </div>
+  </div>
 </ng-template>

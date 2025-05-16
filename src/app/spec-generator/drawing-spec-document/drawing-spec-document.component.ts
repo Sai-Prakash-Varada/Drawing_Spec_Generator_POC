@@ -1,9 +1,9 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import * as specData from '../configs/specData.json';
 import * as spredSheetData from '../configs/spreadSheetData.json';
 import * as configuratorOptions from '../configs/configurator.json';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
+import { ToastrService } from 'ngx-toastr';
 @Component({
   selector: 'app-drawing-spec-document',
   templateUrl: './drawing-spec-document.component.html',
@@ -11,8 +11,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 })
 export class DrawingSpecDocumentComponent implements OnInit {
   @ViewChild('wordContent', { static: false }) wordContent!: ElementRef;
+  @ViewChild('validateItem') validateItem!: TemplateRef<any>;
 
-  constructor(private modalService: NgbModal) { }
+  constructor(private modalService: NgbModal,public toastr: ToastrService) { }
 specData: any = (specData as any).default;
 spredSheetData: any = (spredSheetData as any).default;
 // configuratorOptions: any = (configuratorOptions as any).default;
@@ -20,12 +21,12 @@ spredSheetData: any = (spredSheetData as any).default;
 @Input() isDownload: any;
 @Input() configSelectedValues: any;
 
+toast: any;
   ngOnInit(): void {
-    console.log(this.specData);
-    console.log(this.spredSheetData);
-    console.log(this.configuratorOptions);
+    console.log('Configurator Options', this.configuratorOptions);
+    console.log('Spread Sheet Data', this.spredSheetData);
+    console.log('Spec Document', this.specData);
     console.log(this.configSelectedValues);
-    
     this.getSpecData();
   }
   ngAfterViewInit(): void {
@@ -35,6 +36,18 @@ spredSheetData: any = (spredSheetData as any).default;
   }
   close(){
     this.modalService.dismissAll();
+  }
+  validateAndGenerateDoc() {
+    this.modalService.open(this.validateItem, {
+      centered: true,
+      scrollable: true,
+      size: 'md',
+      backdrop: 'static',
+    });
+    setTimeout(() => {
+      this.modalService.dismissAll();
+      this.generateDoc();
+    }, 3000);
   }
 getSpecData() {
   this.configuratorOptions.Options.forEach((option: any) => {
@@ -58,7 +71,7 @@ getSpecData() {
     ));
   });
 
-console.log(this.specData);
+// console.log(this.specData);
 
 }
 generateDoc() {
@@ -72,18 +85,21 @@ generateDoc() {
     padding: 100px;
 }
 .header {
-    margin-bottom: 12px;
+   margin-bottom: 26px;
 }
 .heading {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 .header-part {
     border: 1px solid black;
     padding: 12px;
 }
-
+p {
+    margin-bottom: 12px;
+}
 .highlight-yellow {
     background-color: yellow;
   }
@@ -146,6 +162,7 @@ generateDoc() {
       type: 'application/msword'
     });
     this.modalService.dismissAll();
+    this.toastr.success("Proposal document generated successfully");
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
@@ -154,6 +171,7 @@ generateDoc() {
     link.click();
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
+
 }
 
 }

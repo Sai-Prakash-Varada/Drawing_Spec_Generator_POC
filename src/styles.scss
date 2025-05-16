@@ -3,7 +3,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
   }
   
 .custom-select .ng-select .ng-select-container {
@@ -90,4 +90,21 @@ button {
   border-top: 1px solid rgba(133, 145, 158, .4);
   z-index: 5;
   padding: 10px;
+}
+.proposalModel {
+  margin-bottom: 70px;
+  height: 30vh;
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+}
+
+.toast-top-full-width {
+  margin-top: 60px;
+  right: 50% !important;
+  left: 50% !important;
+  width: 500px !important;
+  transform: translate(-50%, 0px);
 }

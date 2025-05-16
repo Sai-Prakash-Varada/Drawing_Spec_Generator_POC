@@ -311,7 +311,7 @@
      
     },
     "Operations": {
-        "validOption": "UNTOPRK",
+        "validOption": "",
         "validOptionData": {
             "UNTOPRP": {
               "title": "Manual Push-Up",
