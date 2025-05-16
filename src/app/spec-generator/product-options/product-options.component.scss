@@ -1,0 +1,43 @@
+.product-cont {
+    padding: 40px;
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+}
+.custom-select {
+    display: flex;
+    margin-bottom: 8px;
+    // padding: 0 16px;
+}
+.required {
+    color: red;
+}
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.custom-select .custom-label {
+    position: relative;
+    padding-right: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    color: #2a292a;
+    width: 20%;
+    cursor: pointer;
+}
+.disAbleItem {
+    opacity: 0.75;
+    pointer-events: none;
+  }
+.custom-select .ng-select {
+    padding: 0;
+    width: 56%;
+    border: none;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+ 

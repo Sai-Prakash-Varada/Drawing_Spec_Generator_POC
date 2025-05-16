@@ -1,0 +1,352 @@
+{
+    "Manufacturer": {
+        "validOption": "",
+        "validOptionData": {
+            "MANUCORNELL": "Cornell",
+            "MANUCOOKSON": "Cookson",
+            "MANUCLOPAY": "Clopay Building Products"
+        }
+    },
+    "CurtainSlats": {
+        "validOption": "SLATB",
+        "validOptionData": {
+            "SLATA": {
+                "title": "Galvanized Steel",
+                "description": "No. 5F (prefinished with GalvaNex™ Coating System), Grade 40 steel, ASTM A 653 galvanized steel zinc coating. Gauge as required to meet performance requirements."
+            },
+            "SLATB": {
+                "title": "Galvanized Steel Perforated",
+                "description": "No. 5P, 20 gauge, Grade 40 steel, ASTM A 653 galvanized steel zinc coating perforated with 0.062 inch (1.6 mm) diameter openings at 0.094 inch (2.4 mm) staggered centers, and approximately 22 percent free area. "
+            },
+            "SLATC": {
+                "title": "Aluminium",
+                "description": "No. 5F, 16 gauge (0.050 mm) aluminium."
+            },
+            "SLATD": {
+                "title": "Aluminium Perforated",
+                "description": "No. 5P, 16 gauge (0.050) aluminium perforated with 0.095 inch (2.4 mm) diameter openings at 0.156 inch (4.0 mm) staggered centers, approximately 25 percent free area."
+            },
+            "SLATE": {
+                "title": "Stainless Steel",
+                "description": "No. 5F, 20 gauge (0.035 mm) AISI type 304 series stainless steel."
+            }
+    
+        }
+    },
+    "CurtainFinish": {
+        "validOption": "FINGALUTAN",
+        "validOptionData": {
+            "FINGALGRAY": {
+                    "title": "GalvaNex™",
+                    "description": "ASTM A 653 galvanized base coating treated with dual process rinsing agents in preparation for chemical bonding baked-on base coat and gray baked-on polyester enamel finish coat"
+                },
+                "FINGALTAN": {
+                    "title": "GalvaNex™",
+                    "description": "ASTM A 653 galvanized base coating treated with dual process rinsing agents in preparation for chemical bonding baked-on base coat and tan baked-on polyester enamel finish coat"
+                },
+                "FINGALWHITE": {
+                    "title": "GalvaNex™",
+                    "description": "ASTM A 653 galvanized base coating treated with dual process rinsing agents in preparation for chemical bonding baked-on base coat and white baked-on polyester enamel finish coat"
+                },
+                "FINGALBROWN": {
+                    "title": "GalvaNex™",
+                    "description": "ASTM A 653 galvanized base coating treated with dual process rinsing agents in preparation for chemical bonding baked-on base coat and brown baked-on polyester enamel finish coat"
+                },
+                "FINGALUGRAY": {
+                    "title": "GalvaNex™ Ultra",
+                    "description": "Ultra Powder Coat to be applied as a protective top coat over GalvaNex finish. Top coat is a polyester based structured wear resistant clear powder coat of 2.5-3.5 mils cured film thickness. ASTM D-3363 pencil hardness: 2H or better. Tested per ASTM B117. Base coating of GalvaNex to be ASTM A 653 galvanized base coating treated with dual process rising agents in preparation for chemical bonding baked-on base coat and gray baked-on polyester enamel finish coat."
+                },
+                "FINGALUTAN": {
+                    "title": "GalvaNex™ Ultra",
+                    "description": "Ultra Powder Coat to be applied as a protective top coat over GalvaNex finish. Top coat is a polyester based structured wear resistant clear powder coat of 2.5-3.5 mils cured film thickness. ASTM D-3363 pencil hardness: 2H or better. Tested per ASTM B117. Base coating of GalvaNex to be ASTM A 653 galvanized base coating treated with dual process rising agents in preparation for chemical bonding baked-on base coat and tan baked-on polyester enamel finish coat."
+                },  
+                "FINGALUWHITE": {
+                    "title": "GalvaNex™ Ultra",
+                    "description": "Ultra Powder Coat to be applied as a protective top coat over GalvaNex finish. Top coat is a polyester based structured wear resistant clear powder coat of 2.5-3.5 mils cured film thickness. ASTM D-3363 pencil hardness: 2H or better. Tested per ASTM B117. Base coating of GalvaNex to be ASTM A 653 galvanized base coating treated with dual process rising agents in preparation for chemical bonding baked-on base coat and white baked-on polyester enamel finish coat."
+                },
+                "FINGALUBROWN": {
+                    "title": "GalvaNex™ Ultra",
+                    "description": "Ultra Powder Coat to be applied as a protective top coat over GalvaNex finish. Top coat is a polyester based structured wear resistant clear powder coat of 2.5-3.5 mils cured film thickness. ASTM D-3363 pencil hardness: 2H or better. Tested per ASTM B117. Base coating of GalvaNex to be ASTM A 653 galvanized base coating treated with dual process rising agents in preparation for chemical bonding baked-on base coat and brown baked-on polyester enamel finish coat."
+                }
+    
+        }
+    },
+    "CurtainPowderCoatSpectra": {
+        "validOption": "SPECSHIELD",
+        "validOptionData": {
+            "SPECSHIELD": {
+                    "title": "SpectraShield",
+                    "description": "color as selected by Architect from manufacturer's color range, more than 180 colors"
+                },
+                "SPECSHIELDULTRA": {
+                    "title": "SpectraShield Ultra",
+                    "description": "Ultra Powder Coat to be applied as a protective top coat over SpectraShield finish. Top coat is a polyester based structured wear resistant clear powder coat of 2.5-3.5 mils cured film thickness. ASTM D-3363 pencil hardness: 2H or better. Tested per ASTM B117.  Base coating of SpectraShield color as selected by Architect from manufacturer’s color range, more than 180 colors."
+                }
+        }
+    },
+    "CurtainPowderCoatAtomshield": {
+        "validOption": "ATMOSIRON",
+        "validOptionData": {
+            "ATMOSIRON": "Weathered iron",
+            "ATMOSBROWN": "Weathered brown",
+            "ATMOSEARTH": "Earth",
+            "ATMOSBRONZE": "Weathered bronze",
+            "ATMOSTERRA": "Terra cotta",
+            "ATMOSSTUCCO": "Stucco",
+            "ATMOSPLATINUM": "Platinum",
+            "ATMOSOLDECOPPER": "Molde copper",
+            "ATMOSRUST": "Rust",
+            "ATMOSROAST": "Dark roast",
+            "ATMOSWEATHCOPPER": "Weathered copper"
+        }
+     
+    },
+    "CurtainStainlessSteel": {
+        "validOption": "FINSTEEL",
+        "validOptionData": {
+            "FINSTEEL": "#4 type 304 finish"
+        }
+    },
+
+    "CurtainAluminium": {
+        "validOption": "FINALCLRANN",
+        "validOptionData": {
+            "FINALMILL": "Mill",
+            "FINALCLRANN": "Clear annodized",
+            "FINALMEDBRONZE": "Medium bronze annodized",
+            "FINALDARKBRONZE": "Dark bronze annodized",
+            "FINALBLACKANN": "Black annodized"
+        }
+     
+    },
+
+    "EndLocks": {
+        "validOption": "ELNYLON",
+        "validOptionData": {
+            "ELNYLON": "nylon – available to 21’5” width",
+            "ELGALV": "galvanized cast iron"
+        }
+     
+    },
+    "BottombarConfiguration": {
+        "validOption": "BBATYPSTL",
+        "validOptionData": {
+            "BBATYPEXTAL": {
+              "title": "Extruded Aluminium",
+              "description": "(Standard to 21’4” opening width): Extruded aluminium alloy 6063-T5"
+            },
+            "BBATYPSTL": {
+              "title": "Structural Steel Angles",
+              "description": "(Standard above 21’4” opening width)"
+            },
+            "BBATYPAL": {
+              "title": "Structural Aluminium Angles",
+              "description": ""
+            },
+            "BBATYPALHD": {
+              "title": "Heavy Duty Aluminium Bottom Bar",
+              "description": "6” x 2” x 3/8” impact resistant tubular extrusion (Available to 11’11” opening width)"
+            }
+          }
+          
+    },
+    "BottombarFinish": {
+        "validOption": "BBAFINCLR",
+        "validOptionData": {
+            "BBAFINMIL": {
+              "title": "Aluminium",
+              "description": "Mill"
+            },
+            "BBAFINCLR": {
+              "title": "Aluminium",
+              "description": "Clear anodized"
+            },
+            "BBAFINMED": {
+              "title": "Aluminium",
+              "description": "Medium bronze anodized"
+            },
+            "BBAFINDRK": {
+              "title": "Aluminium",
+              "description": "Dark bronze anodized"
+            },
+            "BBAFINBLK": {
+              "title": "Aluminium",
+              "description": "Black anodized"
+            }
+          }
+          
+    },
+    "BottombarPowderCoat": {
+        "validOption": "BBAPCTAN",
+        "validOptionData": {
+            "BBAPCGRAY": "Stock color to match curtain gray",
+            "BBAPCTAN": "Stock color to match curtain tan",
+            "BBAPCWHITE": "Stock color to match curtain white",
+            "BBAPCBROWN": "Stock color to match curtain brown"
+        }
+    },
+    "BBPowderCoatAtomshield": {
+        "validOption": "BBAATMOLDECOPPER",
+        "validOptionData": {
+            "BBAATMIRON": "Weathered iron",
+            "BBAATMBROWN": "Weathered brown",
+            "BBAATMEARTH": "Earth",
+            "BBAATMBRONZE": "Weathered bronze",
+            "BBAATMTERRA": "Terra cotta",
+            "BBAATMSTUCCO": "Stucco",
+            "BBAATMPLAT": "Platinum",
+            "BBAATMOLDE": "Molde copper",
+            "BBAATNRUST": "Rust",
+            "BBAATMDARK": "Dark roast",
+            "BBAATMCOPPER": "Weathered copper"
+        }
+     
+    },
+    "BBOtherItems": {
+        "validOption": "BBAFINSST",
+        "validOptionData": {
+            "BBAFINZRG": {
+              "title": "Corrosion Inhibitive",
+              "description": "Zirconium treatment followed by a corrosion inhibitive baked-on zinc enriched gray polyester powder coat; minimum 2.5 mils (0.065 mm) cured film thickness"
+            },
+            "BBAFINGALV": {
+              "title": "Hot-dip Galvanized",
+              "description": "ASTM A 123, Grade 85 zinc coating, hot-dip galvanized after fabrication"
+            },
+            "BBAFINSST": {
+              "title": "Stainless Steel",
+              "description": "Type 304 #4 brushed finish"
+            }
+          }
+          
+    },
+    "Guides": {
+        "validOption": "GIDMTLSST",
+        "validOptionData": {
+            "GIDMTLSTL": "Structural steel",
+            "GIDMTLSST": "Stainless steel",
+            "GIDMTLAL": "WStructural aluminium"
+          }
+          
+    },
+    "GuidesPowderCoat": {
+        "validOption": "GIDPCTAN",
+        "validOptionData": {
+            "GIDPCGRAY": "Stock color to match curtain gray",
+            "GIDPCTAN": "Stock color to match curtain tan",
+            "GIDPCWHITE": "Stock color to match curtain white",
+            "GIDPCBROWN": "Stock color to match curtain brown"
+        }
+    },
+    "GuidesPowderCoatAtomshield": {
+        "validOption": "GIDATMBRONZE",
+        "validOptionData": {
+            "GIDATMIRON": "Weathered iron",
+            "GIDATMBROWN": "Weathered brown",
+            "GIDATMEARTH": "Earth",
+            "GIDATMBRONZE": "Weathered bronze",
+            "GIDATMTERRA": "Terra cotta",
+            "GIDATMSTUCCO": "Stucco",
+            "GIDATMPLAT": "Platinum",
+            "GIDATMOLDE": "Molde copper",
+            "GIDATNRUST": "Rust",
+            "GIDATMDARK": "Dark roast",
+            "GIDATMCOPPER": "Weathered copper"
+        }
+     
+    },
+    "GuidesAluminium": {
+        "validOption": "GIDFINDRK",
+        "validOptionData": {
+            "GIDFINMILL": "Mill",
+            "GIDFINCLR": "Clear annodized",
+            "GIDFINMED": "Medium bronze annodized",
+            "GIDFINDRK": "Dark bronze annodized",
+            "GIDFINBLK": "Black annodized"
+        }
+     
+    },
+    "GuidesOtherItems": {
+        "validOption": "GIDFINSST",
+        "validOptionData": {
+            "GIDFINZRG": {
+              "title": "Corrosion Inhibitive",
+              "description": "Zirconium treatment followed by a corrosion inhibitive baked-on zinc enriched gray polyester powder coat; minimum 2.5 mils (0.065 mm) cured film thickness"
+            },
+            "GIDFINGALV": {
+              "title": "Hot-dip Galvanized",
+              "description": "ASTM A 123, Grade 85 zinc coating, hot-dip galvanized after fabrication"
+            },
+            "GIDFINSST": {
+              "title": "Stainless Steel",
+              "description": "Type 304 #4 brushed finish provided for openings up to 14’4” width and 10’0” height. Mill finish structural provided for openings wider than 14’-4” (4.27 m) and higher than 10’-0” (3.05 m)"
+            }
+          }          
+          
+    },
+    "BracketsPowderCoat": {
+        "validOption": "BRXPCTAN",
+        "validOptionData": {
+            "BRXPCGRAY": "Stock color to match curtain gray",
+            "BRXPCTAN": "Stock color to match curtain tan",
+            "BRXPCWHITE": "Stock color to match curtain white",
+            "BRXPCBROWN": "Stock color to match curtain brown"
+        }
+    },
+    "BracketsPowderCoatAtomshield": {
+        "validOption": "BRXATMBRONZE",
+        "validOptionData": {
+            "BRXATMIRON": "Weathered iron",
+            "BRXATMBROWN": "Weathered brown",
+            "BRXATMEARTH": "Earth",
+            "BRXATMBRONZE": "Weathered bronze",
+            "BRXATMTERRA": "Terra cotta",
+            "BRXATMSTUCCO": "Stucco",
+            "BRXATMPLAT": "Platinum",
+            "BRXATMOLDE": "Molde copper",
+            "BRXATNRUST": "Rust",
+            "BRXATMDARK": "Dark roast",
+            "BRXATMCOPPER": "Weathered copper"
+        }
+     
+    },
+    "Operations": {
+        "validOption": "UNTOPRK",
+        "validOptionData": {
+            "UNTOPRP": {
+              "title": "Manual Push-Up",
+              "description": "Provide lift handles on bottom bar and pole with hook"
+            },
+            "UNTOPRK": {
+              "title": "Manual Crank Hoist",
+              "description": "Provide crank hoist operator including crank gear box, steel crank drive shaft and geared reduction unit. Fabricate gear box to completely enclose operating mechanism and be oil-tight."
+            },
+            "UNTOPRC": {
+              "title": "Manual ControlGard Chain Hoist",
+              "description": "Provide chain hoist operator with endless steel chain, chain pocket wheel and guard, geared reduction unit, and chain keeper secured to guide. Chain hoist to include integral brake mechanism that will immediately stop upward or downward travel and maintain the door in a stationary position when the hand chain is released by the user."
+            }
+          }                 
+    },
+    "OperationMotor": {
+        "validOption": "",
+        "validOptionData": {
+            "MTRTYPMGH": "",
+            "MTRTYPMGHC": "",
+            "MTRTYPSG": "",
+            "MTRTYPSGHX": ""
+          }                 
+    },
+    "AccessoriesLocking": {
+        "validOption": "",
+        "validOptionData": {
+            "LCKSDSLCOL": {
+                "title": "Padlockable slide bolt",
+                "description": "on coil side of bottom bar at each jamb extending into slots in guides. Provide interlock switches or motor mounted interlock switches."
+              },
+              "LCKSDSLFAS": {
+                "title": "Padlockable slide bolt",
+                "description": "on fascia side of bottom bar at each jamb extending into slots in guides. Provide interlock switches or motor mounted interlock switches."
+              }
+          }                 
+    }
+}

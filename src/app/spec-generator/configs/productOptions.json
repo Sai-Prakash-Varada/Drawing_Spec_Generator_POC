@@ -1,0 +1,377 @@
+{
+  "manufacturer": [
+    {
+      "manufacturerID": 1,
+      "Name": "CORNELL",
+      "Code": "CORNELL"
+    },
+    {
+      "manufacturerID": 2,
+      "Name": "COOKSON",
+      "Code": "COOKSON"
+    },
+    {
+      "manufacturerID": 3,
+      "Name": "CLOPAY",
+      "Code": "CLOPAY"
+    }
+  ],
+  "productTypes": [
+    {
+      "ProductTypeID": 23,
+      "Name": "EXTERIOR COIL SERVICE DOOR",
+      "Code": "O"
+    },
+    {
+      "ProductTypeID": 24,
+      "Name": "EXTERIOR COIL WEATHERED SERVICE DOOR",
+      "Code": "X"
+    },
+    {
+      "ProductTypeID": 46,
+      "Name": "INTERIOR COIL SERVICE DOOR",
+      "Code": "I"
+    },
+    {
+      "ProductTypeID": 47,
+      "Name": "INTERIOR COIL WEATHERED SERVICE DOOR",
+      "Code": "W"
+    },
+    {
+      "ProductTypeID": 112,
+      "Name": "EXTERIOR COIL SERVICE DOOR TUBE MOTOR",
+      "Code": "T"
+    },
+    {
+      "ProductTypeID": 113,
+      "Name": "EXTERIOR COIL WEATHERED SERVICE DOOR TUBE MOTOR",
+      "Code": "V"
+    },
+    {
+      "ProductTypeID": 114,
+      "Name": "INTERIOR COIL WEATHERED SERVICE DOOR TUBE MOTOR",
+      "Code": "U"
+    },
+    {
+      "ProductTypeID": 115,
+      "Name": "INTERIOR COIL SERVICE DOOR TUBE MOTOR",
+      "Code": "S"
+    }
+  ],
+  "operations": [
+    {
+      "OperationID": 8,
+      "Name": "HAND CHAIN",
+      "Code": "C"
+    },
+    {
+      "OperationID": 9,
+      "Name": "HAND CRANK",
+      "Code": "K"
+    },
+    {
+      "OperationID": 11,
+      "Name": "MOTOR",
+      "Code": "M"
+    },
+    {
+      "OperationID": 18,
+      "Name": "PUSH-UP",
+      "Code": "P"
+    }
+  ],
+  "mounting": [
+    {
+      "MountingID": 2,
+      "Name": "BETWEEN JAMBS",
+      "Code": "B"
+    },
+    {
+      "MountingID": 4,
+      "Name": "FACE OF WALL",
+      "Code": "F"
+    },
+    {
+      "MountingID": 10,
+      "Name": "THROUGH WALL",
+      "Code": "T"
+    }
+  ],
+  "curtainDesign": [
+    {
+      "CurtainDesignID": 2,
+      "Name": "2-5/8",
+      "Code": "5F"
+    },
+    {
+      "CurtainDesignID": 5,
+      "Name": "2-5/8\" SCREENGUARD",
+      "Code": "5P"
+    }
+  ],
+  "materials": [
+    {
+      "MaterialID": 1,
+      "Name": "ALUMINIUM",
+      "Code": "AL"
+    },
+    {
+      "MaterialID": 10,
+      "Name": "GALVANIZED STEEL",
+      "Code": "STL"
+    },
+    {
+      "MaterialID": 15,
+      "Name": "STAINLESS STEEL",
+      "Code": "SST"
+    }
+  ],
+  "finish": [
+    {
+      "FinishTypeID": 17,
+      "Name": "GRAY GALVANIZED STEEL",
+      "Code": "GBE"
+    },
+    {
+      "FinishTypeID": 36,
+      "Name": "TAN GALVANIZED STEEL",
+      "Code": "TBE"
+    },
+    {
+      "FinishTypeID": 41,
+      "Name": "WHITE GALVANIZED STEEL",
+      "Code": "WBE"
+    },
+    {
+      "FinishTypeID": 23,
+      "Name": "BROWN GALVANIZED STEEL",
+      "Code": "BBE"
+    },
+    {
+        "FinishTypeID": 17,
+        "Name": "GRAY GALVANIZED STEEL ULTRA",
+        "Code": "GBE"
+      },
+      {
+        "FinishTypeID": 36,
+        "Name": "TAN GALVANIZED STEEL ULTRA",
+        "Code": "TBE"
+      },
+      {
+        "FinishTypeID": 41,
+        "Name": "WHITE GALVANIZED STEEL ULTRA",
+        "Code": "WBE"
+      },
+      {
+        "FinishTypeID": 23,
+        "Name": "BROWN GALVANIZED STEEL ULTRA",
+        "Code": "BBE"
+      },
+      {
+        "FinishTypeID": 8,
+        "Name": "ALUMINIUM MEDIUM BRONZE",
+        "Code": "MED"
+      },
+      {
+        "FinishTypeID": 8,
+        "Name": "ALUMINIUM DARK BRONZE",
+        "Code": "DRK"
+      },
+      {
+        "FinishTypeID": 8,
+        "Name": "ALUMINIUM BLACK BRONZE",
+        "Code": "BLK"
+      },
+      {
+        "FinishTypeID": 10,
+        "Name": "CLEAR ANODIZED ALUMINIUM",
+        "Code": "CLR"
+      },
+      {
+        "FinishTypeID": 21,
+        "Name": "ALUMINIUM MILL",
+        "Code": "MIL"
+      },
+      {
+        "FinishTypeID": 30,
+        "Name": "POWDER COATED",
+        "Code": "C"
+      },
+      {
+        "FinishTypeID": 32,
+        "Name": "STAINLESS STEEL",
+        "Code": "NO4"
+      },
+      {
+        "FinishTypeID": 32,
+        "Name": "CORROSION",
+        "Code": "ZRG"
+      },
+      {
+        "FinishTypeID": 32,
+        "Name": "HOT-DIP",
+        "Code": "GLV"
+      }
+  ],
+  "gauge": [
+    {
+      "GaugeID": 3,
+      "Name": "16 GAUGE",
+      "Code": "16"
+    },
+    {
+      "GaugeID": 3,
+      "Name": "20 GAUGE",
+      "Code": "20"
+    },
+    {
+      "GaugeID": 3,
+      "Name": "22 GAUGE",
+      "Code": "22"
+    }
+  ],
+  "bbOptions": [
+    {
+      "BottomBarID": 3,
+      "Name": "EXTRUDED ALUMINIUM",
+      "Code": "EXD"
+    },
+    {
+      "BottomBarID": 4,
+      "Name": "STRUCTURAL STEEL ANGLES",
+      "Code": "DBL"
+    },
+    {
+      "BottomBarID": 5,
+      "Name": "STRUCTURAL ALUMINIUM ANGLES",
+      "Code": "AL"
+    },
+    {
+        "BottomBarID": 6,
+        "Name": "Heavy Duty Aluminium Botttom Bar",
+        "Code": "EXT"
+      }
+  ],
+  "powderCoatColor": [
+    {
+      "PCColorID": 3,
+      "Name": "GRAY",
+      "Code": "202"
+    },
+    {
+      "PCColorID": 3,
+      "Name": "TAN",
+      "Code": "200"
+    },
+    {
+      "PCColorID": 3,
+      "Name": "WHITE",
+      "Code": "201"
+    },
+    {
+        "PCColorID": 3,
+        "Name": "BROWN",
+        "Code": "203"
+    },
+    {
+        "PCColorID": 3,
+        "Name": "ATMOSHIELD WEATHERED IRON",
+        "Code": "1376"
+      },
+      {
+        "PCColorID": 4,
+        "Name": "ATMOSHIELD WEATHERED BROWN",
+        "Code": "1377"
+      },
+      {
+        "PCColorID": 5,
+        "Name": "ATMOSHIELD EARTH",
+        "Code": "1378"
+      },
+      {
+          "PCColorID": 6,
+          "Name": "ATMOSHIELD WEATHERED BRONZE",
+          "Code": "1379"
+      },
+      {
+          "PCColorID": 7,
+          "Name": "ATMOSHIELD TERRA COTTA",
+          "Code": "1380"
+        },
+        {
+          "PCColorID": 8,
+          "Name": "ATMOSHIELD STUCCO",
+          "Code": "1381"
+        },
+        {
+          "PCColorID": 9,
+          "Name": "ATMOSHIELD PLATINUM",
+          "Code": "1382"
+        },
+        {
+          "PCColorID": 10,
+          "Name": "ATMOSHIELD MOLDE COPPER",
+          "Code": "1383"
+        },
+        {
+          "PCColorID": 11,
+          "Name": "ATMOSHIELD RUST",
+          "Code": "1384"
+        },
+        {
+          "PCColorID": 12,
+          "Name": "ATMOSHIELD DARK ROAST",
+          "Code": "1385"
+        },
+        {
+          "PCColorID": 13,
+          "Name": "ATMOSHIELD WEATHERED COPPER",
+          "Code": "1386"
+        },
+        {
+            "PCColorID": 31,
+            "Name": "SPECTRA SHELID COLOR",
+            "Code": "Y"
+          },
+          {
+            "PCColorID": 32,
+            "Name": "SPECTRA SHELID ULTRA",
+            "Code": "Y"
+          }
+  ],
+  "motorOptions": [
+    {
+      "MotorOptionID": 3,
+      "Name": "Industrial Duty Gear Head(MG)",
+      "Code": "MGH"
+    },
+    {
+      "MotorOptionID": 4,
+      "Name": "Industrial Duty Gear Head NEMA 3R(MGHC)",
+      "Code": "MGHC"
+    },
+    {
+      "MotorOptionID": 5,
+      "Name": "Super Duty Gear Head(SG)",
+      "Code": "SG"
+    },
+    {
+        "MotorOptionID": 6,
+        "Name": "Super Duty Gear Head NEMA 4X(SGHNX)",
+        "Code": "SGHX"
+      }
+  ],
+  "lockOptions": [
+    {
+      "LockOptionID": 3,
+      "Name": "Coil side",
+      "Code": "COL"
+    },
+    {
+      "LockOptionID": 4,
+      "Name": "Fascia side",
+      "Code": "FAS"
+    }
+  ]
+
+}

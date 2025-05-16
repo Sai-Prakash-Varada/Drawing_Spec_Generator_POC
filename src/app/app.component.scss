@@ -1,0 +1,16 @@
+.container-fluid  {
+    justify-content: start;
+}
+.container-fluid img {
+    width: 60%;
+}
+.container-fluid span {
+    color: #fff;
+    font-size: 30px;
+    margin-left: -40px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}

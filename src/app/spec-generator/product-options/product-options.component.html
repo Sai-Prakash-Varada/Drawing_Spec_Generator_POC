@@ -1,0 +1,146 @@
+<div class="product-cont">
+<h2 class="heading">Select Product Configuration</h2>
+    <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Manufacturer<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.manufacturer" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.manufacturer" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+    <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Product Family<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Service Doors (ESD10)" class="disAbleItem ng-select" 
+        bindLabel="Name" bindValue="Code" id="projectType"
+        >
+   
+      </ng-select>
+      </div>
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Product Type<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.productType" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.productTypes" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Operation<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.operation" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.operations" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <div *ngIf="isMotorSelected" class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Motor<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.motor" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.motorOptions" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <!-- <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Type of Mounting<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.manufacturer" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.mounting" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div> -->
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Curtain Design<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.curtainDesign" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.curtainDesign" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Material<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.material" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.materials" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Finish Type<span class="required">*</span>
+        </label>
+        <ng-select  placeholder="Select" class="ng-select" 
+        id="projectType" [(ngModel)]="configSelectedValues.finishType" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.finish" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <div *ngIf="isPowderCoatSelected" class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Powder Coat Color<span class="required">*</span>
+        </label>
+        <ng-select  placeholder="Select" class="ng-select" 
+        id="projectType" [(ngModel)]="configSelectedValues.powderCoatColor" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.powderCoatColor" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <!-- <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Atom Shield Options<span class="required">*</span>
+        </label>
+        <ng-select  placeholder="Select" class="ng-select" 
+        id="projectType" [(ngModel)]="configSelectedValues.manufacturer" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.atomShieldOptions" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div> -->
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Bootom Bar<span class="required">*</span>
+        </label>
+        <ng-select  placeholder="Select" class="ng-select" 
+        id="projectType" [(ngModel)]="configSelectedValues.bottomBar" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.bbOptions" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+      <div class="form-group custom-select fw-light minField">
+        <label class="custom-label" for="width">Locking options<span class="required">*</span>
+        </label>
+        <ng-select placeholder="Select" class="ng-select" 
+         id="projectType" [(ngModel)]="configSelectedValues.locking" (change)="updateConfiguratorOptions($event)"
+        >
+        <ng-option *ngFor="let item of productOptions.lockOptions" [value]="item">{{item.Name}}
+        </ng-option>
+      </ng-select>
+      </div>
+</div>
+<div class="border-row">
+  <clo-button type="secondary" label="RESET" class="proceedBtn previeBttn" (click)="resetData()"
+  ></clo-button>
+  <clo-button type="secondary" label="PREVIEW" class="proceedBtn previeBttn" (click)="openDrawingDoc(drawingRef,false)"
+   ></clo-button>
+    <clo-button class="proceedBtn rollingBtn" label="Generate Proposal" [disabled]="!validateProductDetails()" (click)="openDrawingDoc(drawingRef, true)" type="primary"
+    ></clo-button>
+</div>
+
+
+
+<ng-template #drawingRef let-modal>
+  <app-drawing-spec-document [configuratorOptions]="configuratorOptions" [isDownload] = "isDownload" [configSelectedValues]="configSelectedValues" ></app-drawing-spec-document>
+</ng-template>

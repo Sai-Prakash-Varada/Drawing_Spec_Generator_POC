@@ -1,0 +1,168 @@
+{
+    "Options": [
+        {
+            "segment": "ORD.EST.NUMB",
+            "value": "2085004"
+        },
+        {
+            "segment": "ORD.EST.ITEM",
+            "value": "1"
+        },
+        {
+            "segment": "PRO.COD.OE",
+            "value": "PFI5F22GP"
+        },
+        {
+            "segment": "PRODUCT.CODE",
+            "value": "PFI5F22GP"
+        },
+        {
+            "segment": "UNT.HND",
+            "value": "RT"
+        },
+        {
+            "segment": "UNT.OPR",
+            "value": "P"
+        },
+        {
+            "segment": "UNIT.OPER.SD",
+            "value": "P"
+        },
+        {
+            "segment": "UNT.MNT.OE",
+            "value": "F"
+        },
+        {
+            "segment": "UNIT.MOUNTING",
+            "value": "F"
+        },
+        {
+            "segment": "UNT.LOC.OE",
+            "value": "I"
+        },
+        {
+            "segment": "UNIT.LOCATION",
+            "value": "I"
+        },
+        {
+            "segment": "CUR.DES",
+            "value": "5F"
+        },
+        {
+            "segment": "CURT.DESIGN",
+            "value": "5F"
+        },
+        {
+            "segment": "BBA.OE.SD",
+            "value": "ALMIL"
+        },
+        {
+            "segment": "BRX.OE",
+            "value": "STL"
+        },
+        {
+            "segment": "CUR.FIN",
+            "value": "WBE"
+        },
+        {
+            "segment": "GID.OE.SD",
+            "value": "STL"
+        },
+        {
+            "segment": "HOD.OE",
+            "value": "STLGRY"
+        },
+        {
+            "segment": "PRO.COD.GA.OE",
+            "value": "22"
+        },
+        {
+            "segment": "GAUGE",
+            "value": "22"
+        },
+        {
+            "segment": "PRO.COD.MTL",
+            "value": "G"
+        },
+        {
+            "segment": "PRO.COD.FIN",
+            "value": "P"
+        },
+        {
+            "segment": "PRO.COD.SER.OE",
+            "value": ""
+        },
+        {
+            "segment": "SERIES.TYPE",
+            "value": ""
+        },
+        {
+            "segment": "PRICE.LOCK.Y",
+            "value": "Y"
+        },
+        {
+            "segment": "ORD.SRC",
+            "value": "WG3"
+        },
+        {
+            "segment": "PRIVATE.LBL.OE",
+            "value": "CLOPAY"
+        },
+        {
+            "segment": "CRT.DNL",
+            "value": "L"
+        },
+        {
+            "segment": "SL.MTL",
+            "value": "AL"
+        },
+        {
+            "segment": "PC.CUR.CC.Y",
+            "value": "N"
+        },
+        {
+            "segment": "PC.CUR.REQ",
+            "value": "Y"
+        },
+        {
+            "segment": "SL.FIN",
+            "value": "MIL"
+        },
+        {
+            "segment": "BBA.TYP",
+            "value": "EXD"
+        },
+        {
+            "segment": "BBA.FIN",
+            "value": "MIL"
+        },
+        {
+            "segment": "GID.FIN",
+            "value": "MIL"
+        },
+        {
+            "segment": "PC.BBA",
+            "value": "200"
+        },
+        {
+            "segment": "PC.GID",
+            "value": "200"
+        },
+        {
+            "segment": "PC.BRX",
+            "value": "200"
+        },
+        {
+            "segment": "MTR.TYP",
+            "value": ""
+        },
+        {
+            "segment": "LCK.OPR",
+            "value": ""
+        },
+        {
+            "segment": "PC.CUR",
+            "value": ""
+        }
+    ]
+}

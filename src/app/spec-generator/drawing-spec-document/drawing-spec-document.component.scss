@@ -1,0 +1,57 @@
+.main-container {
+    padding: 100px;
+    height: 100vh;
+    overflow: scroll;
+    padding-bottom: 11rem;
+}
+.header {
+    margin-bottom: 12px;
+}
+.heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header-part {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.highlight-yellow {
+    background-color: yellow;
+  }
+  .red-note {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .section-title {
+    font-weight: bold;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .small-text {
+    font-size: 0.9em;
+  }
+  .indented {
+    margin-left: 20px;
+  }
+  .sub-indented {
+    margin-left: 40px;
+  }
+  .sub-sub-indented {
+    margin-left: 60px;
+  }
+  .sub-sub-sub-indented {
+    margin-left: 80px;
+  }
+  .sub-sub-sub-sub-indented {
+    margin-left: 100px;
+  }
+  strong {
+    margin-right: 8px;
+  }
+  .border-row {
+    position: absolute;
+  }
